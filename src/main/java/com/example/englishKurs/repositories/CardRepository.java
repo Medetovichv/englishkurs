@@ -1,11 +1,10 @@
 package com.example.englishKurs.repositories;
 
-import com.example.englishKurs.model.User;
+import com.example.englishKurs.model.Card;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
+
 @Repository
-public interface UserRepository extends CrudRepository<User, Long> {
-
-
+public interface CardRepository extends CrudRepository<Card, Long> {
 }

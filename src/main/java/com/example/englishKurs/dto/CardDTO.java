@@ -9,8 +9,12 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class RoleDTO {
+public class CardDTO {
     private Long id;
-    private String name;
+    private EnWordDTO enWord;
+    private RuWordDTO ruWord;
+
+    private Long rating;
 
 }
+

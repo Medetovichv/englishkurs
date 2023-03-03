@@ -1,5 +1,6 @@
 package com.example.englishKurs.dto;
 
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -9,8 +10,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class RoleDTO {
+public class EnWordDTO {
     private Long id;
-    private String name;
-
+    private String meaning;
 }

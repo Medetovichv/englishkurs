@@ -1,0 +1,1 @@
+CREATE SCHEMA 'englishkurs' DEFAULT CHARACTER SET utf8 ;
